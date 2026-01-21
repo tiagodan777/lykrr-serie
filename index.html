@@ -4,16 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lykrr</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
 <body>
     <header id="cabecalho-principal">
-
+        <h1>
+            <a href="#">
+                <picture>
+                    <source media="(max-width: 600px)" srcset="imagens/logos/logo-p.png" width="80px">
+                    <source media="(max-width: 900px)" srcset="imagens/logos/logo-m.png" width="100px">
+                    <img src="imagens/logos/logo-m.png" alt="Logo do Lykrr" width="130px">
+                </picture>
+            </a>
+        </h1>
+        <div>
+            <a href="#"><span class="material-symbols-outlined">chef_hat</span></a>
+            <a href="#"><img src="imagens/fotos-perfil/tiago-p.png" alt="Foto de perfil de Tiago Daniel"></a>
+        </div>
     </header>
     <main id="index">
+        <nav id="menu-selecao-topo">
+            <ul>
+                <li><a href="#"><img src="imagens/icons/hamburger.png" alt="ícone de Hamburger">Hamburger</a></li>
+                <li><a href="#"><img src="imagens/icons/banana.png" alt="ícone de Banana">Banana</a></li>
+                <li><a href="#"><img src="imagens/icons/cerejas.png" alt="ícone de Cerejas">Cerejas</a></li>
+                <li><a href="#"><img src="imagens/icons/sushi.png" alt="ícone de Sushi">Sushi</a></li>
+                <li><a href="#"><img src="imagens/icons/hamburger.png" alt="ícone de Hamburger">Hamburger</a></li>
+                <li><a href="#"><img src="imagens/icons/banana.png" alt="ícone de Banana">Banana</a></li>
+                <li><a href="#"><img src="imagens/icons/cerejas.png" alt="ícone de Cerejas">Cerejas</a></li>
+                <li><a href="#"><img src="imagens/icons/sushi.png" alt="ícone de Sushi">Sushi</a></li>
+            </ul>
+        </nav>
 
+        <article>
+            <header>
+                <a href="#"><img src="imagens/fotos-perfil/tiago-p.png" alt="Foto de perfil de Tiago Daniel"> <span>Tiago Daniel</span></a>
+                <span class="data">7 de Fevereito de 2026</span>
+            </header>
+            <section>
+                <a href="#">
+                    <img src="imagens/comida/sushi.png" alt="Foto de sushi publoicada por Tiago Daniel">
+                </a>
+                <h2>Sushi Tradicional</h2>
+                <p>Como fazer Sushi como um mestre</p>
+            </section>
+            <aside>
+                <div class="icones">
+                    <div class="reacao">
+                        <img src="imagens/icons/hamburger.png" alt="Ícone de Hamburger" width="30px">
+                        <span class="material-symbols-outlined">comment</span>
+                        <span class="material-symbols-outlined">ios_share</span>
+                    </div>
+                    <div id="guardar">
+                        <span class="material-symbols-outlined">bookmark</span>
+                    </div>
+                </div>
+                <div class="numeros">
+                    <span>1M</span>
+                    <span>57k</span>
+                    <span></span>
+                </div>
+            </aside>
+        </article>
+        <aside class="pessoas">
+            <h2>Pessoas que estão no Lykrr</h2>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#"><img src="imagens/fotos-perfil/tiago-p.png" alt="Foto de perfil de Tiago Daniel"></a>
+                        <h3>Tiago Daniel</h3>
+                        <button>Seguir</button>
+                    </li>
+                    <li>
+                        <a href="#"><img src="imagens/fotos-perfil/tiago-p.png" alt="Foto de perfil de Tiago Daniel"></a>
+                        <h3>Tiago Daniel</h3>
+                        <button>Seguir</button>
+                    </li>
+                    <li>
+                        <a href="#"><img src="imagens/fotos-perfil/tiago-p.png" alt="Foto de perfil de Tiago Daniel"></a>
+                        <h3>Tiago Daniel</h3>
+                        <button>Seguir</button>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
     </main>
     <footer class="menu">
-        
+        <a href="#"><span class="material-symbols-outlined">home</span></a>
+        <span class="material-symbols-outlined">add_box</span>
+        <span class="material-symbols-outlined">bolt</span>
+        <span class="material-symbols-outlined"><search></search></span>
     </footer>
 </body>
 </html>
