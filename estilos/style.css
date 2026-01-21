@@ -58,6 +58,14 @@ header#cabecalho-principal > h1 {
     margin-left: 7px;
 }
 
+header#cabecalho-principal > form {
+    visibility: hidden;
+}
+
+header#cabecalho-principal > form > input {
+    width: 0vw;
+}
+
 header#cabecalho-principal > div {
     width: 35vw;
 
@@ -71,6 +79,10 @@ header#cabecalho-principal > div > a {
     padding: 8px;
     color: var(--cor4);
     text-decoration: none;
+}
+
+header#cabecalho-principal > div > a#add_box {
+    display: none;
 }
 
 header#cabecalho-principal > div > a > span {
@@ -258,6 +270,10 @@ main#index > article > aside > div.icones > div.reacao > img:hover, main#index >
 
 main#index > article > aside > div.numeros > span {
     font-size: 0.9em;
+}
+
+aside.pessoas-desktop {
+    display: none;
 }
 
 aside.pessoas-mobile {

@@ -1,0 +1,237 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Glass+Antiqua&display=swap');
+
+:root {
+    --cor0: #F7D500;
+    --cor1: #ED7D3A;
+    --cor2: #2DBF71;
+    --cor3: #EF2356;
+    --cor4: #363537;
+    --cor5: #FFFFFF;
+}
+
+header#cabecalho-principal > form {
+    visibility: visible;
+}
+
+header#cabecalho-principal > form > input[type="search"] {
+    font-size: 1em;
+    width: 600px;
+    padding: 12px 12px 12px 16px;
+    border: none;
+    border-bottom: 1px solid var(--cor0);
+    outline: none;
+    overflow: hidden;
+}
+
+header#cabecalho-principal > form > input[type="search"]:focus {
+    border: none;
+    border-bottom: 1px solid var(--cor0);
+}
+
+header#cabecalho-principal > form > input[type="submit"] {
+    display: none;
+}
+
+header#cabecalho-principal > div {
+    width: 180px;
+}
+
+header#cabecalho-principal > div > a#chef_hat {
+    display: none;
+}
+
+header#cabecalho-principal > div > a#add_box {
+    font-size: 1.2em;
+    padding-right: 20px;
+    transition: 0.3s;
+
+    display: inline-flex;
+}
+
+header#cabecalho-principal > div > a#add_box:hover {
+    color: var(--cor1);
+}
+
+header#cabecalho-principal > div > a > img {
+    width: 40px;
+}
+
+main#index > nav#menu-selecao-topo {
+    width: 40vw;
+    margin: 140px auto 0px auto;
+}
+
+main#index > article {
+    width: 560px;
+    margin-top: 20px;
+}
+
+main#index > article > header {
+    width: 550px;
+}
+
+main#index > article > section > a {
+    width: 550px;
+}
+
+main#index > article > section > a > img {
+    width: 550px;
+}
+
+main#index > article > section > aside.dados {
+    margin-left: 0%;
+}
+
+main#index > article > aside {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+aside.menu {
+    width: 265px;
+    height: 500px;
+    padding-left: 10px;
+    position: fixed;
+    top: 127px;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+aside.menu > a {
+    width: 95%;
+    padding: 15px;
+    border-radius: 25px;
+    color: var(--cor4);
+    text-decoration: none;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    transition: 0.3s;
+}
+
+aside.menu > a:hover {
+    color: var(--cor1);
+}
+
+aside.menu > a > span.descricao-icone {
+    padding-left: 10px;
+}
+
+aside.pessoas-mobile {
+    display: none;
+}
+
+aside.pessoas-desktop {
+    display: block;
+    width: 425px;
+    height: 600px;
+    position: fixed;
+    top: 150px;
+    left: 72.5%;
+
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+aside.pessoas-desktop > h2 {
+    margin-bottom: 25px;
+    position: fixed;
+    color: var(--cor2);
+    display: block;
+    margin: auto;
+}
+
+aside.pessoas-desktop > nav {
+    width: 240%;
+    height: 500px;
+    position: absolute;
+    top: 80px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+aside.pessoas-desktop > nav > ul {
+    list-style: none;
+    margin-top: -50px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+aside.pessoas-desktop > nav > ul > li {
+    width: 275px;
+    height: 450px;
+    margin: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 35px;
+    background-color: var(--cor5);
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+}
+
+aside.pessoas-desktop > nav > ul > li > a {
+    text-align: center;
+    text-decoration: none;
+    color: var(--cor4);
+    margin-top: 10px;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+aside.pessoas-desktop > nav > ul > li > button {
+    color: var(--cor5);
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-top: 20px;
+    border: none;
+}
+
+aside.pessoas-desktop > nav > ul > li > button.seguir {
+    background-color: var(--cor3);
+}
+
+aside.pessoas-desktop > nav > ul > li > button.a-seguir {
+    background-color: var(--cor0);
+}
+
+aside.pessoas-desktop > nav > ul > li > a > img {
+    width: 85px;
+    border-radius: 50%;
+}
+
+main#index > article > aside > div.icones > div.reacao, main#index > article > aside > div.numeros {
+    width: 32.5%;
+
+    justify-content: space-around;
+}
+
+footer.menu {
+    display: none;
+}
