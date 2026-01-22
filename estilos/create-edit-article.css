@@ -12,12 +12,38 @@
 
 main#create-edit-article {
     width: 100vw;
-    margin-top: 100px;
+    margin-top: 18vh;
 }
 
 main#create-edit-article > h1 {
     font-family: "Akaya Kanadaka";
     text-align: center;
+}
+
+main#create-edit-article > div#opcoes-publicacao {
+    width: 100vw;
+    padding: 10px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main#create-edit-article > div#opcoes-publicacao > a {
+    text-decoration: none;
+    color: var(--cor4);
+    background-color: var(--cor5);
+    padding: 10px 13px;
+    border-radius: 20px;
+    margin: 20px 15px;
+    font-size: 0.9em;
+    border: 1px solid #dddddd;
+}
+
+main#create-edit-article > div#opcoes-publicacao > a.pagina-atual {
+    background-color: var(--cor0);
+    border: none;
 }
 
 main#create-edit-article > form {

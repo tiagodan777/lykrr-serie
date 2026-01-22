@@ -1,0 +1,44 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Glass+Antiqua&display=swap');
+
+:root {
+    --cor0: #F7D500;
+    --cor1: #ED7D3A;
+    --cor2: #2DBF71;
+    --cor3: #EF2356;
+    --cor4: #363537;
+    --cor5: #FFFFFF;
+}
+
+main#create-edit-article {
+    margin-top: 13vh;
+    margin-left: 265px;
+    width: calc(100vw - 265px);
+}
+
+main#create-edit-article > h1 {
+    font-size: 2em;
+}
+
+main#create-edit-article > div#opcoes-publicacao {
+    width: 600px;
+    margin: auto;
+}
+
+main#create-edit-article > form {
+    width: 98%;
+    border: none;
+    
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+main#create-edit-article > form > section#imagem-video {
+    max-width: 700px;
+}
+
+main#create-edit-article > form > section#info-texto {
+    max-width: 700px;
+}

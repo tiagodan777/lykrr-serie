@@ -91,10 +91,10 @@ main#index > article > aside {
 
 aside.menu {
     width: 265px;
-    height: 500px;
+    height: 600px;
     padding-left: 10px;
     position: fixed;
-    top: 127px;
+    top: 200px;
 
     display: flex;
     flex-flow: column nowrap;
