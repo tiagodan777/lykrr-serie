@@ -372,6 +372,10 @@ aside.pessoas-mobile > nav > ul > li > button.a-seguir {
     background-color: var(--cor0);
 }
 
+aside.menu {
+    display: none;
+}
+
 footer.menu {
     width: 100vw;
     position: fixed;
