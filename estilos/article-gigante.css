@@ -1,0 +1,54 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Glass+Antiqua&display=swap');
+
+:root {
+    --cor0: #F7D500;
+    --cor1: #ED7D3A;
+    --cor2: #2DBF71;
+    --cor3: #EF2356;
+    --cor4: #363537;
+    --cor5: #FFFFFF;
+}
+
+main#article {
+    margin-top: 50px;
+}
+
+main#article > section#topo {
+    max-width: 1600px;
+}
+
+main#article > section#topo > section#info {
+    margin-top: -400px;
+}
+
+main#article > section#topo > section#imagem {
+    width: 1000px;
+}
+
+main#article > section#topo > section#imagem > img {
+    width: 850px;
+}
+
+main#article > section#needs-video {
+    margin-left: 900px;
+    margin-top: -300px;
+}
+
+main#article > section#needs-video > video {
+    margin-top: -100px;
+}
+
+main#article > section#passos {
+    width: 30vw;
+    margin-top: -1000px;
+    margin-left: -900px;
+}
+
+main#article > aside#seccao-nutricional {
+    margin-top: 100px;
+}
+
+main#article > aside#mais-conteudos > div > a {
+    width: 15%;
+}

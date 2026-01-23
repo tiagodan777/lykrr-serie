@@ -1,0 +1,362 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Glass+Antiqua&display=swap');
+
+:root {
+    --cor0: #F7D500;
+    --cor1: #ED7D3A;
+    --cor2: #2DBF71;
+    --cor3: #EF2356;
+    --cor4: #363537;
+    --cor5: #FFFFFF;
+}
+
+html, body {
+    font-weight: normal;
+}
+
+main#article {
+    width: 100vw;
+    height: 100vh;
+}
+
+main#article > section#topo {
+    margin-top: 12vh;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main#article > section#topo > section#imagem {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+main#article > section#topo > section#imagem > img {
+    width: 100vw;
+}
+
+main#article > section#topo > section#info {
+    width: 100vw;
+    padding: 0px 10px;
+}
+
+main#article > section#topo > section#info > h1 {
+    font-size: 3em;
+    margin-top: 10px;
+}
+
+main#article > section#topo > section#info > h2 {
+    font-size: 1.5em;
+    margin-top: -10px;
+}
+
+main#article > section#topo > section#info > h1, main#article > section#topo > section#info > h2 {
+    text-align: left;
+}
+
+main#article > section#topo > section#info > section#dados-rapidos {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+main#article > section#topo > section#info > section#dados-rapidos > p {
+    font-weight: normal;
+    margin: 5px;
+}
+
+main#article > section#topo > section#info > section#dados-rapidos > p > span {
+    font-weight: bold;
+}
+
+main#article > section#topo > section#info > section#interacao-perfil-data {
+    width: 100vw;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main#article > section#topo > section#info > section#interacao-perfil-data > div#perfil-data > a#user {
+    margin-top: -75px;
+    text-decoration: none;
+    color: var(--cor4);
+    font-weight: bold;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}   
+
+main#article > section#topo > section#info > section#interacao-perfil-data > div#perfil-data > a#user > img {
+    width: 40px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+main#article > section#topo > section#info > section#interacao-perfil-data > div#perfil-data > p#data-receita {
+    font-weight: normal;
+    font-size: 0.8em;
+    margin-top: 10px;
+    text-align: center;
+}
+
+main#article > section#topo > section#info > section#interacao-perfil-data > div#icones-numeros {
+    width: 180px;
+    margin-top: 15px;
+    margin-right: 15px;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main#article > section#topo > section#info > section#interacao-perfil-data > div#icones-numeros > div#icones {
+    width: 100%;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main#article > section#topo > section#info > section#interacao-perfil-data > div#icones-numeros > div#icones > div#reacao {
+    width: 135px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main#article > section#topo > section#info > section#interacao-perfil-data > div#icones-numeros > div#icones > div#reacao > img, main#article > section#topo > section#info > section#interacao-perfil-data > div#icones-numeros > div#icones > div#reacao > span {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+main#article > section#topo > section#info > section#interacao-perfil-data > div#icones-numeros > div#icones > div#reacao > img:hover, main#article > section#topo > section#info > section#interacao-perfil-data > div#icones-numeros > div#icones > div#reacao > span:hover {
+    transform: scale(115%);
+}
+
+main#article > section#topo > section#info > section#interacao-perfil-data > div#icones-numeros > div#icones > div#guardar {
+    width: 45px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+} 
+
+main#article > section#topo > section#info > section#interacao-perfil-data > div#icones-numeros > div#icones > div#guardar > span {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+main#article > section#topo > section#info > section#interacao-perfil-data > div#icones-numeros > div#icones > div#guardar > span:hover {
+    transform: scale(115%);
+}
+
+main#article > section#topo > section#info > section#interacao-perfil-data > div#icones-numeros > div#numeros {
+    width: 100%;
+    margin-left: 45px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+main#article > section#topo > section#info > section#interacao-perfil-data > div#icones-numeros > div#numeros > span {
+    flex: 0 0 45px;
+}
+
+main#article > section#needs-video {
+    width: 100vw;
+    margin: 15px 0px 20px 15px;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+main#article > section#needs-video > section#ingredientes, main#article > section#needs-video > section#temperos {
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+main#article > section#needs-video > section#ingredientes > h2, main#article > section#needs-video > section#temperos > h2 {
+    margin: 10px;
+}
+
+main#article > section#needs-video > section#ingredientes > ul, main#article > section#needs-video > section#temperos > ul {
+    list-style: none;
+}
+
+main#article > section#needs-video > section#ingredientes > ul > li, main#article > section#needs-video > section#temperos > ul > li {
+    padding: 10px;
+}
+
+main#article > section#needs-video > section#video {
+    position: relative;
+    width: 100vw;
+    margin: 25px 0px calc(225px + 20vw) -15px;
+}
+
+main#article > section#needs-video > section#video > video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 56.25vw;
+}
+
+main#article > section#passos {
+    width: 100vw;
+    height: 400px;
+    position: relative;
+    margin: -30px 0px;
+
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+
+    scrollbar-width: none;
+}
+
+main#article > section#passos > h2 {
+    margin-top: -10px;
+    margin-bottom: 200px;
+    text-align: center;
+}
+
+main#article > section#passos > nav {
+    width: 240%;
+    position: absolute;
+    top: 40px;
+    margin-left: 0px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+main#article > section#passos > nav > ul {
+    list-style: none;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+main#article > section#passos > nav > ul > li {
+    width: 305px;
+    height: 305px;
+    margin: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 25px;
+    background-color: var(--cor5);
+    padding: 10px;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+}
+
+main#article > section#passos > nav > ul > li > span {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+main#article > section#passos > nav > ul > li > span.passo {
+    font-weight: normal;
+    font-size: 1em;
+    padding-bottom: 0px;
+    line-height: 1.6em;
+    text-indent: 20px;
+    text-align: justify;
+}
+
+main#article > aside#seccao-nutricional {
+    width: 100vw;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+main#article > aside#seccao-nutricional > h2 {
+    text-align: center;
+}
+
+main#article > aside#seccao-nutricional > ul {
+    width: 80%;
+    list-style: none;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    border-radius: 25px;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main#article > aside#seccao-nutricional > ul > li {
+    width: 90%;
+    line-height: 2.5em;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main#article > aside#mais-conteudos {
+    width: 100vw;
+}
+
+main#article > aside#mais-conteudos > h3 {
+    margin: 10px 0px 20px 0px;
+    text-align: center;
+}
+
+main#article > aside#mais-conteudos > div {
+    width: 100%;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+main#article > aside#mais-conteudos > div > a {
+    width: 33%;
+    border: 1px solid var(--cor5);
+}
+
+main#article > aside#mais-conteudos > div > a > img {
+    width: 100%;
+}
+
