@@ -1,0 +1,117 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Glass+Antiqua&display=swap');
+
+:root {
+    --cor0: #F7D500;
+    --cor1: #ED7D3A;
+    --cor2: #2DBF71;
+    --cor3: #EF2356;
+    --cor4: #363537;
+    --cor5: #FFFFFF;
+}
+
+main#profile {
+    margin-top: 20px;
+}
+
+main#profile > header {
+    width: 70vw;
+    margin-top: 125px;
+    margin-bottom: 150px;
+
+    align-items: center;
+}
+
+main#profile > header > h1 {
+    font-size: 1.5em;
+    margin: 0px;
+    margin-top: 20px;
+}
+
+main#profile > header > div#foto-bio {
+    justify-content: center;
+}
+
+main#profile > header > div#foto-bio > img {
+    width: 150px;
+    margin: 0px;
+}
+
+main#profile > header > div#foto-bio > p {
+    top: 22.5%;
+    right: 15%;
+}
+
+main#profile > header > div#foto-bio > button {
+    top: 65%;
+    right: calc(50vw - 40px);
+}
+
+main#profile > header > div#estatisticas-numeros {
+    width: 220px;
+    margin-top: 20px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main#profile > header > div#estatisticas-legendas {
+    justify-content: space-between;
+    margin-left: -15px;
+}
+
+
+main#profile > header > div#estatisticas-numeros > span, main#profile > header > div#estatisticas-legendas > span {
+    flex: none;
+}
+
+main#profile > header > a#configuracoes {
+    width: auto;
+    text-decoration: none;
+    color: var(--cor4);
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    margin: 0px;
+    padding: 0px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main#profile > header > p#adesao {
+    font-weight: normal;
+
+    position: absolute;
+    top: 45%;
+    right: 5%;
+}
+
+main#profile > header > p#guardado {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+}
+
+main#profile > section {
+    width: 70vw;
+    margin-top: -25px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+main#profile > section > a {
+    width: 240px;
+    height: 240px;
+}
+
+main#profile > section > a:hover {
+    opacity: 0.5;
+}

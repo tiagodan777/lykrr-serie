@@ -75,7 +75,7 @@ main#article > section#topo > section#info > section#dados-rapidos > p > span {
 }
 
 main#article > section#topo > section#info > section#interacao-perfil-data {
-    width: 100vw;
+    width: 90vw;
 
     display: flex;
     flex-flow: row nowrap;
@@ -179,7 +179,7 @@ main#article > section#topo > section#info > section#interacao-perfil-data > div
 }
 
 main#article > section#needs-video {
-    width: 100vw;
+    width: calc(100vw - 15px);
     margin: 15px 0px 20px 15px;
 
     display: flex;
