@@ -1,0 +1,67 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Glass+Antiqua&display=swap');
+
+:root {
+    --cor0: #F7D500;
+    --cor1: #ED7D3A;
+    --cor2: #2DBF71;
+    --cor3: #EF2356;
+    --cor4: #363537;
+    --cor5: #FFFFFF;
+}
+
+header#cabecalho-principal {
+    display: flex;
+}
+
+main#quiks {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+main#quiks > section#todos-videos {
+    width: 50vw;
+    height: 85vh;
+    margin-top: 160px;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+    border-radius: 25px;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+main#quiks > section#todos-videos > div.video-individual {
+    width: 90%;
+    height: 90%;
+    margin-bottom: 20px;
+
+    border-radius: 25px;
+
+    position: relative;
+}
+
+main#quiks > section#todos-videos > div.video-individual > video {
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+main#quiks > section#todos-videos > div.video-individual > nav {
+    position: absolute;
+    top: 25%;
+    left: -7.5%;
+
+    z-index: 10;
+}
+
+main#quiks > section#todos-videos > div.video-individual > nav > ul {
+
+}
+
+main#quiks > section#todos-videos > div.video-individual > div.info {
+    top: 75%;
+}
