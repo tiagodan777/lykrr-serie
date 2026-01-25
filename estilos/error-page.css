@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+main {
+    width: calc(100vw - 285px);
+    height: calc(100vh - 120px);
+    margin-left: 285px;
+    margin-top: 150px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+main > div#texto > h1 {
+    margin-top: 200px;
+    font-family: "Glass Antiqua", serif;
+    font-size: 2em;
+    color: var(--cor4);
+}
+
+main > div#texto > p {
+    margin-top: 25px;
+    text-indent: 25px;
+    font-weight: normal;
+}
+
+main > div#texto > p > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor4);
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+main > div#texto > p > a:hover {
+    color: var(--cor0);
+}
