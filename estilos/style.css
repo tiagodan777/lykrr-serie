@@ -105,7 +105,7 @@ main#index {
 main#index > nav#menu-selecao-topo {
     width: 90vw;
     margin-top: 110px;
-    margin-bottom: -15px;
+    margin-bottom: -85px;
     margin-left: -7vw;
     overflow-x: scroll;
     overflow-y: hidden;
@@ -125,9 +125,13 @@ main#index > nav#menu-selecao-topo > ul {
 main#index > nav#menu-selecao-topo > ul > li {
     margin: 10px;
     padding: 5px;
-
-    border: 1px solid #cecece;
     border-radius: 25px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.2);
+    transition: 0.2s;
+}
+
+main#index > nav#menu-selecao-topo > ul > li:hover {
+    transform: scale(110%);
 }
 
 main#index > nav#menu-selecao-topo > ul > li > a {
@@ -155,7 +159,7 @@ main#index > nav#menu-selecao-topo > ul > li > a > img {
 
 main#index > article {
     width: 100vw;
-    margin-top: 40px;
+    margin-top: 100px;
 
     display: flex;
     flex-flow: column nowrap;
@@ -189,7 +193,7 @@ main#index > article > header > a {
 }
 
 main#index > article > header > a > img {
-    width: 40px;
+    width: 37.5px;
     border-radius: 50%;
     margin-right: 10px;
 }
@@ -210,7 +214,6 @@ main#index > article > section > a {
 main#index > article > section > a > img {
     width: 100%;
     border-radius: 30px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
 }
 
 main#index > article > section > aside.dados {
@@ -229,12 +232,16 @@ main#index > article > section > aside.dados > p {
 }
 
 main#index > article > aside {
-    width: 95%;
+    width: 92.5%;
     margin-top: 10px;
+
+    position: relative;
 }
 
-main#index > article > aside > div.icones, main#index > article > aside > div.numeros {
-    width: 100%;
+main#index > article > aside > div.icones {
+    width: 240px;
+    position: absolute;
+    right: 0;
 
     display: flex;
     flex-flow: row nowrap;
@@ -242,29 +249,37 @@ main#index > article > aside > div.icones, main#index > article > aside > div.nu
     align-items: center;
 }
 
-main#index > article > aside > div.icones > div.reacao, main#index > article > aside > div.numeros {
-    width: 40%;
+main#index > article > aside > div.icones > span {
+    width: 60px;
+}
+
+main#index > article > aside > div.numeros {
+    width: 120px;
+    position: absolute;
+    top: 40px;
+    right: 120px;
 
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
-main#index > article > aside > div.icones > div.guardar {
-    margin-right: 35px;
+main#index > article > aside > div.numeros > span {
+    width: 60px;
 }
 
-main#index > article > aside > div.icones > div.reacao > span, main#index > article > aside > div.icones > div.guardar > span {
+
+main#index > article > aside > div.icones > span {
     font-size: 1.8em;
 }
 
-main#index > article > aside > div.icones > div.reacao > img, main#index > article > aside > div.icones > div.reacao > span, main#index > article > aside > div.icones > div.guardar > span {
+main#index > article > aside > div.icones > span > img, main#index > article > aside > div.icones > span {
     transition: 0.3s;
     cursor: pointer;
 }
 
-main#index > article > aside > div.icones > div.reacao > img:hover, main#index > article > aside > div.icones > div.reacao > span:hover, main#index > article > aside > div.icones > div.guardar > span:hover {
+main#index > article > aside > div.icones > span > img:hover, main#index > article > aside > div.icones > span:hover {
     transform: scale(115%);
 }
 
@@ -279,6 +294,7 @@ aside.pessoas-desktop {
 aside.pessoas-mobile {
     width: 100vw;
     height: 500px;
+    margin-top: 75px;
     position: relative;
 
     overflow-x: scroll;
@@ -291,7 +307,7 @@ aside.pessoas-mobile {
 aside.pessoas-mobile > h2 {
     display: block;
     position: absolute;
-    top: 10px;
+    top: 40px;
     left: 20%;
     padding-bottom: 50px;
     color: var(--cor2);
@@ -299,7 +315,7 @@ aside.pessoas-mobile > h2 {
 
 aside.pessoas-mobile > nav {
     width: 240%;
-    height: 450px;
+    height: 500px;
     position: absolute;
     top: 75px;
 
@@ -311,7 +327,7 @@ aside.pessoas-mobile > nav {
 
 aside.pessoas-mobile > nav > ul {
     list-style: none;
-    margin-top: -60px;
+    margin-top: -80px;
 
     display: flex;
     flex-flow: row nowrap;
@@ -320,10 +336,10 @@ aside.pessoas-mobile > nav > ul {
 }
 
 aside.pessoas-mobile > nav > ul > li {
-    width: 350px;
-    height: 425px;
+    width: 300px;
+    height: 375px;
     margin: 40px 10px 10px 10px;
-    border: 1px solid #eaeaea;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.2);
     border-radius: 25px;
     background-color: var(--cor5);
 

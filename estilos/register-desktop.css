@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+main#register {
+    background-color: var(--cor5);
+    justify-content: space-between;
+}
+
+main#register > div#conteiner {
+    width: 50vw;
+    height: 100vh;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+main#register > div#conteiner > section {
+    box-shadow: none;
+    height: 85%;
+}
+
+main#register > div#conteiner > section > form {
+    height: 100%;
+}
+
+main#register > div#conteiner > section > h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+main#register > div#video {
+    width: 50vw;
+    height: 100vh;
+    display: block;
+}
+
+main#register > div#video > video {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover; /* Faz com que o vídeo preencha toda a área */
+    object-position: center 30%; /* Ajusta a parte visível do vídeo */
+}

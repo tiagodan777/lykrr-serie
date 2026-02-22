@@ -13,7 +13,7 @@
 main#article {
     width: calc(100vw - 265px);
     height: 100vh;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-left: 265px;
 
     display: flex;
@@ -60,6 +60,11 @@ main#article > section#topo > section#info > section#dados-rapidos {
     align-self: flex-end;
 }
 
+main#article > section#topo > section#info > section#dados-rapidos > p {
+    font-size: 0.9em;
+    line-height: 0.8em;
+}
+
 main#article > section#topo > section#info > section#interacao-perfil-data {
     width: 100%;
     margin-top: -150px;
@@ -102,7 +107,7 @@ main#article > section#needs-video > section#video > video {
 main#article > section#passos {
     width: 35vw;
     height: 425px;
-    margin-top: -900px;
+    margin-top: -850px;
     margin-left: -600px;
 
     flex-shrink: 0;

@@ -12,11 +12,12 @@
 
 header#cabecalho-principal > form {
     visibility: visible;
+    margin-left: 60px;
 }
 
 header#cabecalho-principal > form > input[type="search"] {
     font-size: 1em;
-    width: 600px;
+    width: 500px;
     padding: 12px 12px 12px 16px;
     border: none;
     border-bottom: 1px solid var(--cor0);
@@ -58,25 +59,55 @@ header#cabecalho-principal > div > a > img {
 }
 
 main#index > nav#menu-selecao-topo {
-    width: 40vw;
-    margin: 140px auto 0px auto;
+    width: 42.5vw;
+    margin: 127px auto -45px auto;
+}
+
+main#index > nav#menu-selecao-topo > ul > li {
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    transition: 0.2s;
+}
+
+main#index > nav#menu-selecao-topo > ul > li:hover {
+    transform: scale(110%);
 }
 
 main#index > article {
-    width: 560px;
-    margin-top: 20px;
+    width: 535px;
+    margin-top: 65px;
+    border-radius: 35px;
 }
 
 main#index > article > header {
-    width: 550px;
+    width: 500px;
+}
+
+main#index > article > header > a > span {
+    font-size: 0.9em;
+}
+
+main#index > article > section {
+    width: 90%;
 }
 
 main#index > article > section > a {
-    width: 550px;
+    width: 500px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 main#index > article > section > a > img {
-    width: 550px;
+    width: 500px;
+    transition: 0.3s;
+}
+
+main#index > article > section > a > img:hover {
+    transform: scale(101.5%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
 }
 
 main#index > article > section > aside.dados {
@@ -84,17 +115,17 @@ main#index > article > section > aside.dados {
 }
 
 main#index > article > aside {
-    width: 100%;
+    width: 515px;
     margin-top: 0px;
     margin-bottom: 25px;
 }
 
 aside.menu {
     width: 265px;
-    height: 600px;
+    height: 500px;
     padding-left: 10px;
     position: fixed;
-    top: 200px;
+    top: 140px;
 
     display: flex;
     flex-flow: column nowrap;
@@ -134,8 +165,8 @@ aside.pessoas-desktop {
     width: 425px;
     height: 600px;
     position: fixed;
-    top: 150px;
-    left: 72.5%;
+    top: 140px;
+    left: 75%;
 
     overflow-x: scroll;
     overflow-y: hidden;
@@ -145,7 +176,7 @@ aside.pessoas-desktop {
 }
 
 aside.pessoas-desktop > h2 {
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     position: fixed;
     color: var(--cor2);
     display: block;
@@ -156,7 +187,7 @@ aside.pessoas-desktop > nav {
     width: 240%;
     height: 500px;
     position: absolute;
-    top: 80px;
+    top: 60px;
 
     display: flex;
     flex-flow: row nowrap;
@@ -175,10 +206,10 @@ aside.pessoas-desktop > nav > ul {
 }
 
 aside.pessoas-desktop > nav > ul > li {
-    width: 275px;
-    height: 450px;
+    width: 245px;
+    height: 410px;
     margin: 10px;
-    border: 1px solid #dddddd;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.2);
     border-radius: 35px;
     background-color: var(--cor5);
 
@@ -224,12 +255,6 @@ aside.pessoas-desktop > nav > ul > li > button.a-seguir {
 aside.pessoas-desktop > nav > ul > li > a > img {
     width: 85px;
     border-radius: 50%;
-}
-
-main#index > article > aside > div.icones > div.reacao, main#index > article > aside > div.numeros {
-    width: 32.5%;
-
-    justify-content: space-around;
 }
 
 footer.menu {
