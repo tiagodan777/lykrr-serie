@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+header#cabecalho-principal {
+    z-index: 10;
+}
+
+section#opcoes {
+    width: 100vw;
+    margin-top: 100px;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+section#opcoes > section {
+    width: 500px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+section#opcoes > section > div > label {
+    font-weight: normal;
+}
+
+section#opcoes > section > div > input[type="radio"] {
+    visibility: hidden;
+}
+
+section#opcoes > div#linha-principal {
+    margin: 20px auto;
+    width: 400px;
+    height: 1px;
+    background-color: rgb(230, 230, 230);
+}
+
+section#opcoes > div#linha-principal > div#linha-que-move {
+    width: 125px;
+    height: 1px;
+    background-color: black;
+}
+
+main#search {
+
+    height: calc(100vh - 223px);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+main#search > div {
+    position: relative;
+    margin-bottom: 7px;
+}
+
+main#search > div > a > img { 
+    width: 45vw;    
+}
+
+main#search  aside {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    
+}
+
+main#search  aside > nav > ul {
+    list-style-type: none;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main#search  aside > nav > ul > li {
+    
+}
+
+main#search  aside > nav > ul > li > a {
+    background-color: var(--cor0);
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 0px 10px;
+    color: var(--cor5);
+    text-decoration: none;
+}
+
+main#search aside > nav > ul > li > a.ativo {
+    background-color: var(--cor2);
+}
+
+footer.info {
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+    margin: 0px;
+    position: absolute;
+    top: -150px;
+    margin-top: -25px;
+    background-color: transparent;
+    border: none;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+footer.info > h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--cor5);
+    font-weight: bold;
+    font-size: 1.4em;
+    margin-bottom: -35px;
+}
+
+footer.info > h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--cor5);
+    font-weight: normal;
+    font-size: 0.9em;
+}
+
+footer.info > div.stats {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer.info > div.stats > div {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer.info > div.stats > div > span {
+    color: var(--cor5);
+}

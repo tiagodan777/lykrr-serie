@@ -10,7 +10,7 @@
     --cor5: #FFFFFF;
 }
 
-header#cabecalho-principal {
+main#quiks header#cabecalho-principal {
     display: none;
 }
 
@@ -115,10 +115,10 @@ main#quiks > section#todos-videos > div.video-individual > div.info > p {
     font-weight: normal;
 }
 
-footer.menu {
+main#quiks footer.menu {
     background-color: rgb(20, 20, 20);
 }
 
-footer.menu > a {
+main#quiks footer.menu > a {
     color: var(--cor5);
 }

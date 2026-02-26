@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="shortcut icon" href="imagens/icons/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="estilos/login.css">
-    <link rel="stylesheet" href="estilos/login-tablet.css" media="screen and (min-width: 768px)">
 </head>
 <body>
     <main>

@@ -106,6 +106,10 @@ main#create-edit-article > form > section#imagem-video > div#div-imagem > div > 
     top: 0px;
 }
 
+main#create-edit-article > form > section#imagem-video > div#div-imagem > img {
+    width: 100%;
+}
+
 main#create-edit-article > form > section#imagem-video > div#div-imagem > div > input[type="file"]::-webkit-file-upload-button, main#create-edit-article > form > section#imagem-video > div#div-video > div > input[type="file"]::-webkit-file-upload-button {
     color: var(--cor5);
     background-color: var(--cor0);

@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+section#opcoes {
+    margin-top: 150px;
+}
+
+section#opcoes > section {
+    width: 800px;
+    margin-left: 250px;
+}
+
+section#opcoes > div#linha-principal {
+    width: 550px;
+    transform: translate(125px, 0px);
+}
+
+main#search {
+    width: calc(100vw - 250px);
+    margin-left: 250px;
+}
+
+main#search > div > a > img { 
+    width: 350px;    
+}
+
+footer.info {
+    top: 68%;
+}
