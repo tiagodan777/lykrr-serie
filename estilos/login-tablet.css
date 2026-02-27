@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+main#login-principal h1 {
+    margin: 0px 0px 30px 0px;
+}
+
+main#login-principal {
+    margin-top: 0px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+main#login-principal > section#principal {
+    width: 50%;
+    height: 100%;
+
+    justify-content: center;
+    order: 2;
+}
+
+main#login-principal > section#principal > section#login {
+    margin: 0px;
+    height: 400px;
+    border: none;
+}
+
+main#login-principal > section#principal > section#login > form {
+    height: 100vh;
+}
+
+main#login-principal > section#principal > section#login > a {
+    margin-top: 30px;
+    color: var(--cor6);
+}
+
+main#login-principal > section#principal > section#registo {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    border: none;
+}
+
+main#login-principal > aside {
+    order: 1;
+}
+
+main#login-principal aside {
+    width: 50%;
+    height: 150%;
+    visibility: visible;
+    overflow: hidden;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+main#login-principal aside > video {
+    width: 200%;
+    height: 200%;
+    border: none;
+    transform: translateY(-20%); /* Move o conteúdo do iframe para cima */
+    object-fit: cover;
+}
+
+/*main#login-principal aside > video {
+    padding: 0px;
+    margin-top: -10px;
+    margin-left: -20px;
+    width: 100%;
+    height: 102%;
+    overflow: hidden;
+}*/
+
+

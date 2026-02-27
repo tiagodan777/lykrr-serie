@@ -58,6 +58,9 @@ header#cabecalho-principal > div > a > img {
     width: 40px;
 }
 
+
+
+
 main#index > nav#menu-selecao-topo {
     width: 42.5vw;
     margin: 127px auto -45px auto;
@@ -65,13 +68,19 @@ main#index > nav#menu-selecao-topo {
 
 main#index > nav#menu-selecao-topo > ul > li {
     border: none;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
     transition: 0.2s;
 }
 
 main#index > nav#menu-selecao-topo > ul > li:hover {
     transform: scale(110%);
 }
+
+
+
+
+
+
 
 main#index > article {
     width: 535px;
@@ -120,6 +129,13 @@ main#index > article > aside {
     margin-bottom: 25px;
 }
 
+
+
+
+
+
+
+
 aside.menu {
     width: 265px;
     height: 500px;
@@ -155,6 +171,13 @@ aside.menu > a:hover {
 aside.menu > a > span.descricao-icone {
     padding-left: 10px;
 }
+
+
+
+
+
+
+
 
 aside.pessoas-mobile {
     display: none;

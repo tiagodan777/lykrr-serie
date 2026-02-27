@@ -39,6 +39,6 @@ main#register > div#video > video {
     width: 100%;
     height: 100%;
 
-    object-fit: cover; /* Faz com que o vídeo preencha toda a área */
-    object-position: center 30%; /* Ajusta a parte visível do vídeo */
+    object-fit: cover; 
+    object-position: center 30%; 
 }

@@ -46,6 +46,12 @@ main#create-edit-article > div#opcoes-publicacao > a.pagina-atual {
     border: none;
 }
 
+
+
+
+
+
+
 main#create-edit-article > form {
     width: 98%;
     border: none;
@@ -124,6 +130,13 @@ main#create-edit-article > form > section#imagem-video > div#div-imagem > div > 
 main#create-edit-article > form > section#imagem-video > div#div-imagem > div > input[type="file"]::-webkit-file-upload-button:hover, main#create-edit-article > form > section#imagem-video > div#div-video > div > input[type="file"]::-webkit-file-upload-button:hover {
     background-color: #D6BA00;
 }
+
+
+
+
+
+
+
 
 main#create-edit-article > form > section#info-texto {
     width: 100%;

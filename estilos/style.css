@@ -157,6 +157,15 @@ main#index > nav#menu-selecao-topo > ul > li > a > img {
     width: 25px;
 }
 
+
+
+
+
+
+
+
+
+
 main#index > article {
     width: 100vw;
     margin-top: 100px;
@@ -287,6 +296,21 @@ main#index > article > aside > div.numeros > span {
     font-size: 0.9em;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 aside.pessoas-desktop {
     display: none;
 }
@@ -387,6 +411,14 @@ aside.pessoas-mobile > nav > ul > li > button.seguir {
 aside.pessoas-mobile > nav > ul > li > button.a-seguir {
     background-color: var(--cor0);
 }
+
+
+
+
+
+
+
+
 
 aside.menu {
     display: none;

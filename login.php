@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="shortcut icon" href="imagens/icons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/login.css">
+    <link rel="stylesheet" href="estilos/login-tablet.css" media="screen and (min-width: 1100px)">
 </head>
 <body>
-    <main>
+    <main id="login-principal">
         <section id="principal">
             <section id="login">
                 <h1><img src="imagens/logos/logo-p.png" alt=""></h1>
@@ -23,7 +25,7 @@
             </section>
         </section>
         <aside>
-            <iframe src="videos-pagina-login.html" allow="autoplay;" frameborder="0" scrolling="no"></iframe>
+            <video src="video-longo-comprimido.mp4"  autoplay muted loop playsinline>O teu navegador não suoporta vídeos</video>
         </aside>
     </main>
 </body>

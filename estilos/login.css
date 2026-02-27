@@ -1,0 +1,183 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Glass+Antiqua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined');
+
+:root {
+    --cor0: #F7D500;
+    --cor1: #ED7D3A;
+    --cor2: #2FBF71;
+    --cor3: #EF2D56;
+    --cor4: #363537;
+    --cor5: #FFFFFF;
+    --cor6: #000000
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    /*background-image: linear-gradient(-45deg, var(--cor0), var(--cor1));*/
+}
+
+main#login-principal h1 {
+    margin: 30px 0px;
+}
+
+main#login-principal {
+    /*background-color: var(--cor1);*/
+    height: 100vh;
+    margin-top: 30px;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+main#login-principal > section#principal {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+main#login-principal > section#principal > section#login {
+    width: 375px;
+    height: 405px;
+    /*border: 1px solid var(--cor1);*/
+    margin: 10px;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+main#login-principal > section#principal > section#login > form {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    position: relative;
+}
+
+main#login-principal > section#principal > section#login > form > input {
+    width: 300px;
+    padding: 12px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+main#login-principal > section#principal > section#login > form > input:focus {
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #ccc;
+}
+
+main#login-principal > section#principal > section#login > form > span.material-symbols-outlined {
+    position: absolute;
+    top: 32.5%;
+    left: 85%;
+    color: #888888;
+    cursor: pointer;
+}
+
+main#login-principal > section#principal > section#login > form > span#material-symbols-outlined:hover {
+    color: #454545;
+}
+
+main#login-principal > section#principal > section#login > form > input#submit {
+    background-color: var(--cor3);
+    border-radius: 10px;
+    color: var(--cor5);
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+main#login-principal > section#principal > section#login > form > input#submit:hover {
+    cursor: pointer;
+    background-color: #cf274b;
+}
+
+main#login-principal > section#principal > section#login > form > p  {
+    align-self: flex-start;
+    margin: 15px 0px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+main#login-principal > section#principal > section#login > form > p:hover {
+    cursor: pointer;
+}
+
+main#login-principal > section#principal > section#login > form > p > label {
+    cursor: pointer;
+
+}
+
+main#login-principal > section#principal > section#login > form > p > label:hover {
+    cursor: pointer;
+
+}
+
+main#login-principal > section#principal > section#login > a {
+    color: var(--cor);
+    text-decoration: none;
+    margin-top: 75px;
+    margin-bottom: 50px;
+}
+
+main#login-principal > section#principal > section#registo {
+    width: 375px;
+    height: 70px;
+    /*border: 1px solid var(--cor1);*/
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+main#login-principal > section#principal > section#registo > a {
+    color: var(--cor4);
+    text-decoration: none;
+}
+
+main#login-principal > section#principal > section#registo > a > span {
+    color: var(--cor1);
+    font-weight: bold;
+}
+
+main#login-principal aside {
+    width: 100vw;
+    visibility: hidden;
+}
+
+main#login-principal aside video {
+    width: 100vw;
+}
+
+.success {
+    background-color: #2fbf707c;
+    color: var(--cor5);
+    padding: 10px 35px;
+    margin: 10px;
+}
+
+.failure, .error {
+    background-color: #ef2d577e;
+    color: var(--cor5);
+    padding: 10px 35px;
+    margin: 10px;
+}
